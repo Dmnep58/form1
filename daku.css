@@ -1,0 +1,249 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+ul{
+    background:#dddddd;
+    margin:0;
+    padding:10px 10px;
+    background-origin: border-box; 
+    border-radius: 10px;
+    top: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    width: 97%;
+    position: fixed;
+    list-style-type: none;
+    margin-left: 2px;
+    z-index: 300;
+    
+}
+li{
+    display: inline-block;
+}
+
+li a {
+    display:block;
+    padding: 10px;
+     text-align: center;
+     padding: 10px 12px;
+     color: rgb(255, 127, 217);
+     font-size: medium;
+     border-radius: 8px;
+    
+    
+}
+li a:hover:not(.active){
+    background-color: aqua;
+}
+.active {
+    background-color: forestgreen;
+}
+
+.name {
+    color: red;
+    text-align: center;
+    padding-left: 25%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: unset;
+    font-size: large;
+}
+
+#table01{
+    background-color: gray;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: bold;
+    border-radius: 10px;
+    width: 99%;
+    color:blue;
+    margin-top: 60px;
+    font-size: large;
+    padding-left: 15x;
+    padding-right: 20px;
+    margin-left: 8px;
+    margin-right: 13px;
+
+}
+
+img{
+    border-radius: 10px 10px;
+    padding-left: 0px;
+    margin-top: 10px;
+    position: relative;
+    margin-left: 12px;
+    background-attachment: fixed;    
+}
+
+section{
+    float: right;
+    padding-right: 180px;
+    margin-top: 40px;
+    color: crimson;
+    
+}
+
+h3{
+    font-size: x-large;
+    font-weight: bold;
+  position: relative;
+  animation: mymove 2s infinite;
+  animation-timing-function:cubic-bezier(0.77, 0, 0.175, 1); 
+  animation-fill-mode: both;
+  position: relative;
+  
+}
+h3:hover{
+    animation-play-state: paused;
+}
+
+@keyframes mymove{
+    from{left: opx;}
+    to{left:60px;color: blue;}
+}
+
+legend{
+    font-style: italic;
+    font-size: x-large;
+}
+
+#table03{
+   border-color: blue;
+   width:100%; 
+
+}
+
+.foot{
+    background-attachment:relative;
+    background-color: black;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15px;
+    border-color: darkred;
+    color:#dddddd;  
+    width: 100%;
+    height: auto;
+   text-align: center;
+}
+
+@media  only screen and (min-width:300px)and  (max-width:1200px){
+
+    img{
+        border-radius: 10px 10px;
+        padding-left: 0px;
+        margin-top: 10px;
+        width:95%;
+    }
+
+    section{
+        float: right;
+        padding-right: 150px;
+        margin-top: 20px;
+        color: crimson;
+        
+    }
+    ul{
+        max-width:96%;
+        border-radius: 10px 10px;
+        position:fixed;
+        padding: 6px 6px;
+        padding-right: 25px;
+        font-size: small;
+
+    }
+    
+    table{
+        max-width: 96%;
+        margin-top:30px;
+    }
+
+    .name{
+        color: red;
+    text-align: center;
+    padding-left: 25%;
+    display: inline-block;
+    font-size: small;
+    }
+    li{
+        display: inline-block;
+        font-size: small;
+    }
+    li a{
+        font-size: medium;
+        padding: 8px;
+        text-align: center;
+        padding: 6px 8px;
+    }
+   .foot{
+       max-width:100%;
+       height: auto;
+       margin-top: 10px;
+   }
+
+
+    
+}
+
+
+/*for the page made to fill up the form*/
+
+body{
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    max-width: 100%; 
+    height:auto;
+    background-size: cover;
+}
+
+#form{
+    background-color: transparent;
+    border-radius: 13px;
+    border-style:groove;
+    padding-top: 0px;
+    border-color: crimson;
+    max-width: 100%;
+    max-height: 75%;
+    float: center;
+    margin-left: 35%;
+    margin-right: 32%;
+    color:yellow;
+    padding: 10px 10px;
+    margin-bottom: 90px;
+    margin-top: 30px;
+    
+}
+
+legend{
+    color:springgreen;
+}
+
+h4{
+    text-align: center;
+    margin-top: 5px;
+}
+
+h4 a:hover{
+    color: ghostwhite;
+}
+
+button{
+    border-radius: 15px;
+    background-color: white;
+    border-color:palegreen;
+}
+
+#b1{
+    border-radius: 15px;
+    padding-left: 10px;
+    background-color: #dddddd;
+    margin-left: 60px;
+}
+
+.custom-checkbox{
+   display: inline-block;
+    background-origin: padding-box;
+    border-radius: 13px;
+   
+    
+}
+
